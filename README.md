@@ -14,4 +14,3 @@ A web-based car service platform where users can browse, book, and manage all ca
 | 2 | Jul 27–Aug 2 | Auth, service details, booking form |
 | 3 | Aug 3–9 | Dashboard, status tracker, responsive design |
 | 4 | Aug 10–15 | Polish, deployment, docs |
-
