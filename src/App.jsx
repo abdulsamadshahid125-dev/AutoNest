@@ -1,8 +1,18 @@
-import { auth } from "./firebase";
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import ServiceCategories from './components/ServiceCategories';
+import CTASection from './components/CTASection';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold text-blue-600">AutoNest</h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <ServiceCategories />
+      <CTASection />
+      <Footer />
+    </div>
   );
 }
 
