@@ -1,16 +1,17 @@
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import ServiceCategories from './components/ServiceCategories';
-import CTASection from './components/CTASection';
 import Footer from './components/Footer';
+import Home from './pages/Home';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <ServiceCategories />
-      <CTASection />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<ServicesPage />} />
+      </Routes>
       <Footer />
     </div>
   );
